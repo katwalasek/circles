@@ -1,0 +1,13 @@
+.circles {
+    height: 200px;
+    border: 1px solid blue;
+}
+
+.circles div {
+    width: 100px;
+    height: 100px;
+    background-color: fuchsia;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 50%;
+}
