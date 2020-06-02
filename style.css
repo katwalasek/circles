@@ -1,5 +1,5 @@
 .circles {
-    height: 200px;
+    height: 735px;
     border: 1px solid blue;
 }
 
@@ -11,3 +11,5 @@
     display: inline-block;
     border-radius: 50%;
 }
+
+.circles div 
