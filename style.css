@@ -1,6 +1,5 @@
 .circles {
-    height: 735px;
-    border: 1px solid blue;
+    
     display: flex;
     justify-content: space-around;
     
@@ -10,9 +9,49 @@
     width: 100px;
     height: 100px;
     background-color: fuchsia;
-    margin: 5px;
+    margin: 60px;
     display: inline-block;
     border-radius: 50%;
 }
 
- 
+ .first {
+    transform-origin: 100%;
+    animation-name: firstmotion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes firstmotion {
+    50% {
+        transform: translateY(90%);
+    }
+    
+}
+
+.second {
+    transform-origin: 100%;
+    animation-name: secondmotion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes secondmotion {
+    50% {
+        transform: translateY(90%);
+    }
+    
+}
+
+.third {
+    transform-origin: 100%;
+    animation-name: thirdmotion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes thirdmotion {
+    50% {
+        transform: translateY(90%);
+    }
+    
+}
