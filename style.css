@@ -3,22 +3,35 @@
     display: flex;
     justify-content: space-around;
     
+    
 }
 
 .circles div {
     width: 100px;
     height: 100px;
-    background-color: fuchsia;
-    margin: 60px;
+    margin: 50px;
     display: inline-block;
     border-radius: 50%;
+}
+
+.first {
+    background-color: #CC3366;
+}
+
+.second {
+    background-color: #CC0066;
+}
+
+.third {
+    background-color: #993366;
 }
 
  .first {
     transform-origin: 100%;
     animation-name: firstmotion;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
+    
 }
 
 @keyframes firstmotion {
@@ -45,7 +58,7 @@
 .third {
     transform-origin: 100%;
     animation-name: thirdmotion;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
 }
 
